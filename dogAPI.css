@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    background: linear-gradient(lightyellow,orange);
+    height: 100vh;
+}
+header{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+header h2{
+    margin-top: 15px;
+}
+select{
+    font-size: 20px;
+    
+}
+img{
+    width: 400px;
+}
+.main{
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+    padding: 0px 20px;
+}
+.first{
+    margin-left: 120px;
+    
+}
+.first h3,.second h3{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 30px;
+}
+.first select{
+    width: 200px;
+    margin: 10px;
+}
+.second{
+    margin-left: 120px;
+
+}
+.second ul,li{
+    list-style: none;
+    margin-top: 20px;
+    font-weight: bold;
+    
+}
+.second li{
+    margin-top: 40px;
+    
+}
